@@ -33,15 +33,17 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 
 | Tool | Repository | Version | Updated | Platforms & Architectures |
 | :--- | :--------- | :------ | :------ | :------------------------ |
+| [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.26.0 | Dec 02, 2025 | linux (amd64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.56.0 | Dec 02, 2025 | linux (amd64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 1 Tools | 💾 20.84 MB Total Size</h3></div>
+<div align='center'><h3>📦 2 Tools | 💾 27.45 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
 | lazygit | 20.84 MB | 20.84 MB |
+| bat | 6.61 MB | 6.61 MB |
 
 ## 💻 Shell Integration
 
@@ -123,6 +125,7 @@ platforms:
 
 tools:
   lazygit: jesseduffield/lazygit
+  bat: sharkdp/bat
 ```
 
 ## ℹ️ Additional Information
