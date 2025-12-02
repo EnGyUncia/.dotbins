@@ -1,0 +1,8 @@
+tools_dir: ~/.dotbins
+
+platforms:
+  linux:
+    - amd64
+
+tools:
+  lazygit: jesseduffield/lazygit

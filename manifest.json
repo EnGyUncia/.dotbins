@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "lazygit/linux/amd64": {
+    "tag": "v0.56.0",
+    "updated_at": "2025-12-02T11:29:41.842536",
+    "sha256": "ced13c2ae074bbf6c201bc700ee2971e193b811c3b2ae0ed4d00d6225c6c9ab7",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_linux_x86_64.tar.gz"
+  }
+}
