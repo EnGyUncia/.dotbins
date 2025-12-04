@@ -7,3 +7,4 @@ platforms:
 tools:
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
+  uv: astral-sh/uv

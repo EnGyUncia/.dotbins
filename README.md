@@ -33,17 +33,19 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 
 | Tool | Repository | Version | Updated | Platforms & Architectures |
 | :--- | :--------- | :------ | :------ | :------------------------ |
-| [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.26.0 | Dec 02, 2025 | linux (amd64) |
+| [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.26.1 | Dec 04, 2025 | linux (amd64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.56.0 | Dec 02, 2025 | linux (amd64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.9.15 | Dec 04, 2025 | linux (amd64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 2 Tools | 💾 27.45 MB Total Size</h3></div>
+<div align='center'><h3>📦 3 Tools | 💾 79.07 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
+| uv | 51.64 MB | 51.64 MB |
 | lazygit | 20.84 MB | 20.84 MB |
-| bat | 6.61 MB | 6.61 MB |
+| bat | 6.59 MB | 6.59 MB |
 
 ## 💻 Shell Integration
 
@@ -126,10 +128,11 @@ platforms:
 tools:
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
+  uv: astral-sh/uv
 ```
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Dec 02, 2025
+* This README was automatically generated on Dec 04, 2025
 * Current platform: **linux/amd64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins
