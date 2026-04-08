@@ -5,6 +5,7 @@ platforms:
     - amd64
 
 tools:
+  starship: starship/starship
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
   uv: astral-sh/uv
