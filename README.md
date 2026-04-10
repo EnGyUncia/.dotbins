@@ -1,6 +1,6 @@
 # 🛠️ dotbins Tool Collection
 
-[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
+[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.10.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
 
 This directory contains command-line tools automatically managed by [dotbins](https://github.com/basnijholt/dotbins).
 
@@ -36,15 +36,15 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.26.1 | Dec 04, 2025 | linux (amd64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.61.0 | Apr 09, 2026 | linux (amd64) |
 | [starship](https://github.com/starship/starship) | starship/starship | 1.24.2 | Apr 09, 2026 | linux (amd64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.5 | Apr 09, 2026 | linux (amd64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.6 | Apr 11, 2026 | linux (amd64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 4 Tools | 💾 92.84 MB Total Size</h3></div>
+<div align='center'><h3>📦 4 Tools | 💾 93.09 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
-| uv | 57.27 MB | 57.27 MB |
+| uv | 57.52 MB | 57.52 MB |
 | lazygit | 17.43 MB | 17.43 MB |
 | starship | 11.55 MB | 11.55 MB |
 | bat | 6.59 MB | 6.59 MB |
@@ -128,7 +128,11 @@ platforms:
     - amd64
 
 tools:
-  starship: starship/starship
+  starship:
+    repo: starship/starship
+    shell_code:
+      bash,zsh: |
+        eval "$(starship init __DOTBINS_SHELL__)"
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
   uv: astral-sh/uv
@@ -136,6 +140,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Apr 09, 2026
+* This README was automatically generated on Apr 11, 2026
 * Current platform: **linux/amd64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

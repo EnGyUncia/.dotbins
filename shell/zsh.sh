@@ -9,3 +9,9 @@ _arch=$(uname -m)
 
 export PATH="$HOME/.dotbins/$_os/$_arch/bin:$PATH"
 
+# Tool-specific configurations
+# Configuration for starship
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init zsh)"
+fi
+

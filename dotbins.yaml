@@ -5,11 +5,11 @@ platforms:
     - amd64
 
 tools:
-  starship: 
-  repo: starship/starship
-  shell_code:
-    bash,zsh: |
-      eval "$(starship init __DOTBINS_SHELL__)"
+  starship:
+    repo: starship/starship
+    shell_code:
+      bash,zsh: |
+        eval "$(starship init __DOTBINS_SHELL__)"
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
   uv: astral-sh/uv
