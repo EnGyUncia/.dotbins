@@ -7,10 +7,16 @@
     "url": "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-unknown-linux-musl.tar.gz"
   },
   "lazygit/linux/amd64": {
-    "tag": "v0.61.0",
-    "updated_at": "2026-04-09T00:10:24.409137",
-    "sha256": "4a9702b346283a23a6919c9424617e14788ac00e9cd3c9be266bac48cc6de8eb",
-    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.61.0/lazygit_0.61.0_linux_x86_64.tar.gz"
+    "tag": "v0.61.1",
+    "updated_at": "2026-04-15T14:27:16.732042",
+    "sha256": "1b91e660700f2332696726b635202576b543e2bc49b639830dccd26bc5160d5d",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.61.1/lazygit_0.61.1_linux_x86_64.tar.gz"
+  },
+  "nvim/linux/amd64": {
+    "tag": "v0.12.1",
+    "updated_at": "2026-04-15T14:27:16.780779",
+    "sha256": "022e6e7eb79939813fa895ad39aa7dcaa10bb9c20ed234d5752fe12845df27db",
+    "url": "https://github.com/neovim/neovim/releases/download/v0.12.1/nvim-linux-x86_64.appimage"
   },
   "starship/linux/amd64": {
     "tag": "v1.24.2",

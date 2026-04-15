@@ -10,6 +10,11 @@ tools:
     shell_code:
       bash,zsh: |
         eval "$(starship init __DOTBINS_SHELL__)"
+  nvim:
+    repo: neovim/neovim
+    shell_code:
+      bash,zsh: |
+        alias vim="nvim"
   lazygit: jesseduffield/lazygit
   bat: sharkdp/bat
   uv: astral-sh/uv
